@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid gray;
+    padding: 100px 70px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 4px 7px rgb(154 154 154 / 83%);
+}
+.pay-head{
+    color: rgb(5, 250, 0);
+}
+.pay-para{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.container img{
+    max-width: 60px;
+    max-height: 60px;
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+/* body{
+    overflow-x: hidden;
+} */
+.row img{
+    height: 40vh;
+    
+}
+.row .card{
+    outline: none;
+    border: none;
+}
+

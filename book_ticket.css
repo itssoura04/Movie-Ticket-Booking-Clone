@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper{
+   background-image: url(img/bg.png);
+   background-repeat: no-repeat;
+   background-position: bottom center;
+   background-size: contain; 
+   min-height: 100%;
+   background-attachment: fixed;
+}
+
+.payment-app span i.bank-icon{
+    cursor: auto;
+}
+.payment-app span i{
+    font-size: 32px;
+    margin-right: 25px;
+    color:#000;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.payment-app span i:hover{
+    color: rgb(13, 77, 198);
+}
+
+.slot-booking{
+    display: flex;
+    gap: 25px;
+
+}
+.slot-booking span{
+    border: 1px solid rgb(196, 193, 193);
+}
+
+.payment-btn{
+    padding: 9px 88px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.payment-btn i{
+    margin: 0 0 0 5px;
+}
+#loader-div{
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+
+.count{
+    display: flex;
+}
+
+.count span{
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form .form-inp:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid rgba(188, 182, 182, 0.678);
+}

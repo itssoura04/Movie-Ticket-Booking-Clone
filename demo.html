@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1 class="title">Hello World! </h1>
+    <p id="currentTime"></p>
+    <button type="button" id="btn">click</button>
+    <script>
+        let para = document.getElementById("currentTime");
+
+        function message() {
+            para.innerHTML = "Thanks for waiting";
+        }
+        let timeoutID = setTimeout(message, 6000);
+
+        let btn = document.getElementById("btn");
+        btn.addEventListener("click", ()=>{
+            clearTimeout(timeoutID);
+            para.innerHTML = "Timer was stopped";
+        });
+    </script>
+</body>
+
+</html>
